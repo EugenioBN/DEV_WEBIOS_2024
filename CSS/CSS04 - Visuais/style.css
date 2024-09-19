@@ -1,0 +1,28 @@
+body{
+    background-image: url(./hotwheels.png);
+    /*background-image: url(https://1000logos.net/wp-content/uploads/2020/09/Hot-Wheels-logo.png);*/
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#p1{
+    /*border-width:2px;
+    border-color:aqua;
+    border-style:solid;*/
+    border: groove 5px aqua;
+}
+
+img{
+    width: 400px;
+    height: 200px;
+}
+
+figure{
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+h2{
+    text-align: center;
+}
