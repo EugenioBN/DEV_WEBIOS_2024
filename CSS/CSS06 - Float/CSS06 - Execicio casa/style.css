@@ -1,0 +1,50 @@
+/* Define o fundo branco nas laterais */
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: "Exo 2", sans-serif;
+    display: flex;
+    flex-direction: column;  /* Elementos empilhados */
+    align-items: center;     /* Centraliza horizontalmente */
+}
+
+/* Container centralizado com max-width */
+.container {
+    width: 100%;  /* Ocupar a largura completa */
+    max-width: 1200px;  /* Define o máximo da largura */
+    padding: 0 20px;  /* Pequeno padding lateral */
+    box-sizing: border-box;  /* Inclui padding e bordas no cálculo de largura */
+}
+
+/* Remover margens de todos os elementos */
+header, .content, h1, nav, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para o header */
+header {
+    background-color: #729998;  /* Cor de fundo do header */
+    width: 100%;  /* Ocupa a largura completa */
+    padding: 20px 0;
+}
+
+/* Estilo para o conteúdo principal */
+.content {
+    background-color: #729998;  /* Cor de fundo do conteúdo */
+    border: 1px solid black;  /* Borda em volta do conteúdo */
+    padding: 20px;
+    width: 100%;  /* Ocupa a largura completa */
+}
+
+/* Estilo para o título */
+#titulo1 {
+    color: blue;
+    margin-left: 20px;
+}
+
+nav img {
+    display: block;
+    margin: 10px 0;
+}

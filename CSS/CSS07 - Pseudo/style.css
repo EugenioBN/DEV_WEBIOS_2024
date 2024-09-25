@@ -1,0 +1,27 @@
+button{
+    background-color: brown;
+    color: white;
+    width: 100px;
+    border-radius: 5px;
+    border: solid 3px green;
+}
+
+button:hover{
+    background-color: green;
+    color: black;
+    border-color: brown;
+    cursor: pointer;
+}
+
+p:hover{
+    background-color: brown;
+    cursor: pointer;
+}
+
+input:focus{
+    background-color: red;
+}
+
+li:last-child{
+    border: solid 2px pink;
+}
