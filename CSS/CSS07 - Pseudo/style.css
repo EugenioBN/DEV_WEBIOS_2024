@@ -25,3 +25,30 @@ input:focus{
 li:last-child{
     border: solid 2px pink;
 }
+
+#p2::after{
+    content: "aqui adddemos o after";
+    border: 1px dotted black;
+}
+
+#p2::before{
+    content: "aqui adddemos o before";
+    border: solid 2px red;
+}
+
+.p3::first-letter{
+    font-size: 4em;
+    color: purple;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+}
+
+.p3::first-line{
+    background-color: grey;
+    color: white;
+}
+
+#p5::selection{
+    background-color: black;
+    color: aquamarine;
+}
