@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #C1C2BC;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    padding: 2em;
+    background-color: #8C867C;
+    flex-grow: 1;
+}
+
+.img1 {
+    width: 300px;
+    height: auto;
+}
+
+.bloco1 {
+    display: flex;
+    align-items: center;
+}
+
+#cordotitulo {
+    color: #725436;
+}
+
+.bloco1 .resumo {
+    margin-left: 20px;
+}
+
+.texto-resumo {
+    background-color: #725436;
+    color: white;
+    padding: 10px;
+}
+
+.saiba-mais {
+    display: inline-block;
+    background-color: #533618;
+    color: white;
+    width: 100px;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 2px solid transparent;
+}
+
+.saiba-mais:hover {
+    background-color: #C1C2BC !important;
+    color: black;
+    border-color: #533618;
+    cursor: pointer;
+}
+
+.bloco-2 {
+    display: flex;
+    margin-top: 2em;
+    align-items: flex-start;
+}
+
+.video-container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.bloco-2 iframe {
+    width: 100%;
+    height: auto;
+}
+
+.video-title {
+    background-color: #725436;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 1em;
+    margin-top: 5px;
+}
+
+.informacoes {
+    margin-left: 20px;
+}
+
+.informacoes-fundo {
+    background-color: #725436;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.bloco-3 {
+    margin-top: 2em;
+}
+
+#cordotitulo2{
+    color:#725436;
+}
+
+.noticia {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.noticia img {
+    width: 300px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.resumo-noticia {
+    font-size: 1.1em;
+    color: #725436;
+}
+
+footer {
+    font-size: 1em;
+    text-align: center;
+    background-color: #725436;
+    color: white;
+    padding: 1em;
+    position: relative;
+    width: 100%;
+    clear: both;
+    margin-top: auto;
+}
+
+footer::after {
+    content: "";
+}
+
+::selection {
+    background-color: green;
+    color: white;
+}
