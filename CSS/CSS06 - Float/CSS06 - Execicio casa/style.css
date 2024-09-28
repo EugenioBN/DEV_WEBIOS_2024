@@ -1,50 +1,78 @@
-/* Define o fundo branco nas laterais */
 body {
-    background-color: white;
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    width: 80%;
     font-family: "Exo 2", sans-serif;
-    display: flex;
-    flex-direction: column;  /* Elementos empilhados */
-    align-items: center;     /* Centraliza horizontalmente */
+    border: 1px solid black;
 }
 
-/* Container centralizado com max-width */
 .container {
-    width: 100%;  /* Ocupar a largura completa */
-    max-width: 1200px;  /* Define o máximo da largura */
-    padding: 0 20px;  /* Pequeno padding lateral */
-    box-sizing: border-box;  /* Inclui padding e bordas no cálculo de largura */
+    padding: 2em;
+    font-family: "Exo 2", sans-serif;
+    background-color: #729998;
 }
 
-/* Remover margens de todos os elementos */
-header, .content, h1, nav, p {
-    margin: 0;
-    padding: 0;
+#imgtitulo {
+    width: 7em;
+    height: 80px;
 }
 
-/* Estilo para o header */
-header {
-    background-color: #729998;  /* Cor de fundo do header */
-    width: 100%;  /* Ocupa a largura completa */
-    padding: 20px 0;
-}
-
-/* Estilo para o conteúdo principal */
-.content {
-    background-color: #729998;  /* Cor de fundo do conteúdo */
-    border: 1px solid black;  /* Borda em volta do conteúdo */
-    padding: 20px;
-    width: 100%;  /* Ocupa a largura completa */
-}
-
-/* Estilo para o título */
-#titulo1 {
+#titulo1{
     color: blue;
-    margin-left: 20px;
 }
 
-nav img {
-    display: block;
-    margin: 10px 0;
+figure {
+    width: 250px;
+    padding: 5px;
+    border: 2px solid #000000;
+}
+
+figcaption {
+    font-size: 1.2em;
+    text-align: center;
+    padding: 5px;
+}
+
+p {
+    font-size: 1.3em;
+}
+
+img {
+    width: 250px;
+    height: 200px;
+}
+
+.images {
+    border: 1px solid #000000;
+    width: 100%;
+    float: left;
+}
+
+.FF1 {
+    float: none;
+}
+
+
+.MFMF {
+    float: left;
+}
+
+.FFT {
+    float: right;
+}
+
+.FF4{
+    float: left;
+}
+
+.tentativa{
+    clear: none;
+}
+
+.FF5{
+    float: right;
+}
+
+footer{
+    font-size: 1.3em;
+    font-family: "Exo 2", sans-serif;
 }
