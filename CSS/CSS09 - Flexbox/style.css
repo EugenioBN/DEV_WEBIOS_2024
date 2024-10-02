@@ -1,0 +1,31 @@
+#container{
+    height: 70vh;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+#sete{
+    color: blue;
+}
+
+img{
+    width: 75px;
+    height: 105px;
+}
+
+.item{
+    border: 1px solid black;
+    width: 100px;
+    /*height: 115px;*/
+}
+
+ .item-1{
+    height: 60px;
+ }
+
+ .item-2{
+    flex-grow: 100;
+ }
