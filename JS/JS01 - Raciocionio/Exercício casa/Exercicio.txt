@@ -1,0 +1,53 @@
+Exercícios:
+
+    PROBABILIDADE
+    Jogamos dois dados comuns. Qual a probabilidade de que o total de pontos seja igual a 10?
+    a) 1/12.
+    b) 1/11.
+    c) 1/10.
+    d) 2/23.
+    R: Alternativa A
+
+    SEQUÊNCIA
+    A sequência (5, 13, 25, 41, X, 85) obedece a uma regra lógica. O termo X dessa série é
+    a) 45
+    b) 51
+    c) 57
+    d) 61 
+    e) 69
+    R: Alternativa D
+
+    Analisando-se o padrão de construção da sequência numérica abaixo, assinalar a alternativa que apresenta o próximo termo dessa sequência, de modo que o padrão seja mantido:  5, 15, 30, 90, 180, 540, 1080, ?
+    a) 3.620
+    b) 3.240
+    c) 2.560
+    d) 2.160
+    R: Alternativa B
+
+
+    RACIOCÍNIO
+    No quadro abaixo, a segunda palavra foi obtida a partir da primeira, seguindo certa regra na remoção das suas sílabas. Sendo assim, assinalar a alternativa que contém a palavra que substitui o ponto de interrogação CORRETAMENTE:
+
+    a) LEGO
+    b) LEDO
+    c) LAGO
+    d) GELO
+    e) GADO
+    R: Alternativa E
+
+    EQUIVALÊNCIA
+    A negação de “Todos os brasileiros gostam de futebol” é:
+    a) “Apenas um brasileiro gosta de futebol.”
+    b) “Pelo menos um brasileiro gosta de futebol.”
+    c) “Existem brasileiros que gostam de futebol.”
+    d) “Existem brasileiros que não gostam de futebol.”
+    e) “Nenhum brasileiro gosta de futebol.
+    R: Alternativa D
+
+    ANÁLISE COMBINATÓRIA
+    De quantas maneiras diferentes, uma pessoa pode se vestir tendo 6 camisas e 4 calças?
+    a) 10 maneiras
+    b) 24 maneiras
+    c) 32 maneiras
+    d) 40 maneiras
+    R: Alternativa B
